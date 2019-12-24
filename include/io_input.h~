@@ -1,0 +1,55 @@
+/*外部入力スイッチ状態取得プログラム
+ *	・使用法
+ * 		任意のスイッチに該当する関数を呼び出したときの戻り値から判断（0:押されている　1:押されていない)
+ * 			get_D_SW1_enable() -> ダクトスイッチ1
+ * 			get_D_SW2_enable() -> ダクトスイッチ2
+ * 			get_D_SW3_enable() -> ダクトスイッチ3
+ * 			get_D_SW4_enable() -> ダクトスイッチ4
+ * 			get_S_SW1_enable() -> スライドスイッチ1
+ * 			get_S_SW2_enable() -> スライドスイッチ2
+ * 			get_S_SW3_enable() -> スライドスイッチ3
+ */
+
+#ifndef IOINPUTH
+#define IOINPUTH
+
+#include<stdio.h>
+#include <wiringPi.h>
+#include <wiringPiSPI.h>
+
+#define D_SW1_PIN 22
+#define D_SW2_PIN 25
+#define D_SW3_PIN 5
+#define D_SW4_PIN 12
+
+#define S_SW1_PIN 26
+#define S_SW2_PIN 13
+#define S_SW3_PIN 19
+
+class io_input_c
+{
+private:
+public:
+	io_input_c()
+	{
+		if (wiringPiSetupGpio() == -1) printf("Connect Error\n");
+  
+		pinMode(D_SW1_PIN, INPUT);
+		pinMode(D_SW2_PIN, INPUT);
+		pinMode(D_SW3_PIN, INPUT);
+		pinMode(D_SW4_PIN, INPUT);
+		pinMode(S_SW1_PIN, INPUT);
+		pinMode(S_SW2_PIN, INPUT);
+		pinMode(S_SW3_PIN, INPUT);
+		
+	};
+	int get_D_SW1_enable();
+	int get_D_SW2_enable();
+	int get_D_SW3_enable();
+	int get_D_SW4_enable();
+	int get_S_SW1_enable();
+	int get_S_SW2_enable();
+	int get_S_SW3_enable();
+};
+
+#endif // IOINPUTH

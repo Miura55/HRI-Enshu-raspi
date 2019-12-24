@@ -1,0 +1,363 @@
+  313  cc -o MOTOR_TEST motor_test.cpp hedder/rs405cb.cpp -l wiringPi
+  314  ./MOTOR_TEST 
+  315  sudo apt-get xrdp
+  316  sudo apt-get install xrdp
+  317  sudo apt-get install vnc4server 
+  318  ifconfig
+  319  cd key_ws/sixleg_test/
+  320  cc -o MOTOR_TEST motor_test.cpp -lwiringPi
+  321  ./MOTOR_TEST 
+  322  shutdown 0
+  323  sudo shutdown 0
+  324  cd key_ws/circit_test/
+  325  cc -o MOTOR_TEST motor_test.cpp -lwiringPi
+  326  cd ../sixleg_test/
+  327  cc -o MOTOR_TEST motor_test.cpp -lwiringPi
+  328  ./MOTOR_TEST 
+  341  cc -o MOTOR_TEST motor_test.cpp -lwiringPi
+  342  ./MOTOR_TEST 
+  343  sudo shutdown 0
+  344  cd key_ws/sixleg_test/
+  345  cc -o MOTOR_TEST motor_test.cpp -lwiringPi
+  346  ./MOTOR_TEST 
+  347  cc -o MOTOR_TEST motor_test.cpp -lwiringPi
+  364  ./MOTOR_TEST 
+  365  cc -o MOTOR_TEST motor_test.cpp -lwiringPi
+  366  ./MOTOR_TEST 
+  367  shutdown 0
+  368  cc -o MOTOR_TEST motor_test.cpp -lwiringPi
+  369  shutdown 0
+  370  ./MOTOR_TEST 
+  371  shutdown 0
+  372  cc -o MOTOR_TEST motor_test.cpp -lwiringPi
+  373  ./MOTOR_TEST 
+  378  cc -o MOTOR_TEST motor_test.cpp -lwiringPi
+  379  ./MOTOR_TEST 
+  380  cc -o MOTOR_TEST motor_test.cpp -lwiringPi
+  381  ./MOTOR_TEST 
+  382  sudo shutdown 0
+  383  cd key_ws/DEMO/
+  384  sudo cc -o DEMO main.cpp -l wiringPi
+  385  ./DEMO 
+  386  sudo cc -o DEMO main.cpp -l wiringPi
+  387  ./DEMO 
+  394  sudo cc -o DEMO main.cpp -l wiringPi
+  395  ./DEMO 
+  396  cd key_ws/DEMO/
+  397  sudo cc -o DEMO main.cpp -l wiringPi
+  398  cd key_ws/DEMO/
+  399  sudo cc -o DEMO main.cpp -l wiringPi
+  400  sudo cc -o DEMO main.cpp -l wiringPi -l math
+  401  sudo cc -o DEMO main.cpp -l wiringPi -l math.h
+  402  sudo cc -o DEMO main.cpp -l wiringPi -l m
+  403  ./DEMO 
+  404  sudo cc -o DEMO main.cpp -l wiringPi -l m
+  405  ./DEMO 
+  434  sudo cc -o DEMO main.cpp -l wiringPi -l m
+  435  ./DEMO 
+  436  sudo cc -o DEMO main.cpp -l wiringPi -l m
+  437  ./DEMO 
+  446  sudo cc -o DEMO main.cpp -l wiringPi -l m
+  447  ./DEMO 
+  448  cd ../circit_test/
+  449  dir
+  450  sudo cc -o MOTOR_TEST motor_test.cpp -l wiringPi
+  451  cd ../sixleg_test/
+  452  ./MOTOR_TEST 
+  453  cd ../DEMO/
+  454  sudo cc -o DEMO main.cpp -l wiringPi -l m
+  455  cd ../DEMO/
+  456  ./DEMO 
+  457  cd ../DEMO/
+  458  sudo cc -o DEMO main.cpp -l wiringPi -l m
+  459  ./DEMO 
+  464  sudo cc -o DEMO main.cpp -l wiringPi -l m
+  465  ./DEMO 
+  466  sudo shutdown 0
+  467  cd key_ws/DEMO/
+  468  sudo cc -o DEMO main.cpp -l wiringPi -l m
+  469  ./DEMO 
+  470  sudo cc -o DEMO main.cpp -l wiringPi -l m
+  471  ./DEMO 
+  472  sudo cc -o DEMO main.cpp -l wiringPi -l m
+  513  ./DEMO 
+  522  sudo cc -o DEMO main.cpp -l wiringPi -l m
+  523  ./DEMO *
+  526  ./DEMO 
+  527  sudo cc -o DEMO main.cpp -l wiringPi -l m
+  528  ./DEMO 
+  529  sudo cc -o DEMO main.cpp -l wiringPi -l m
+  592  ./DEMO 
+  593  sudo cc -o DEMO main.cpp -l wiringPi -l m
+  594  ./DEMO [
+  595  sudo cc -o DEMO main.cpp -l wiringPi -l m
+  596  ./DEMO [
+  597  cd key_ws/DEMO/
+  598  sudo cc -o DEMO main.cpp -l wiringPi -l m
+  599  ./DEMO
+  600  sudo cc -o DEMO main.cpp -l wiringPi -l m
+  601  ./DEMO
+  602  sudo cc -o DEMO main.cpp -l wiringPi -l m
+  603  ./DEMO
+  604  sudo cc -o DEMO main.cpp -l wiringPi -l m
+  605  ./DEMO
+  614  cd key_ws/DEMO/
+  615  sudo cc -o DEMO main.cpp -l wiringPi -l m
+  616  ./DEMO
+  617  sudo cc -o DEMO main.cpp -l wiringPi -l m
+  618  ./DEMO
+  651  sudo cc -o DEMO main.cpp -l wiringPi -l m
+  652  ./DEMO
+  653  sudo cc -o DEMO main.cpp -l wiringPi -l m
+  654  ./DEMO
+  655  ifconfig
+  656  cd key_ws/DEMO/
+  657  ./DEMO
+  658  sudo apt-get install vnc4server xrdp 
+  659  service xrdp stop 
+  660  sudo service xrdp start 
+  661  sudo service xrdp restart 
+  662  sudo apt-get remove vnc4server xrdp 
+  663  sudo apt-get install xrdp 
+  664  sudo apt-get install vnc4server 
+  665  sudo service xrdp status 
+  666  sudo service xrdp start 
+  667  exit
+  668  cd key_ws/DEMO/
+  669  sudo cc -o DEMO main.cpp -l wiringPi -l m
+  670  ./DEMO 
+  671  sudo cc -o DEMO main.cpp -l wiringPi -l m
+  672  ./DEMO 
+  733  sudo cc -o DEMO main.cpp -l wiringPi -l m
+  734  ./DEMO 
+  735  cd key_ws/DEMO/
+  736  sudo cc -o DEMO main.cpp -l wiringPi -l m
+  737  ./DEMO 
+  738  cd hedder/speach_file/
+  739  echo "ほかにもからだじゅうにおんどせんさやじゃいろせんさなどのせんさをなんこもとりつけております" | open_jtalk -x /var/lib/mecab/dic/open-jtalk/naist-jdic -m /home/pi/MMDAgent_Example-1.7/Voice/mei/mei_normal.htsvoice -ow speach2_5.wav -r 1.0
+  740  echo "ほかにもからだじゅうにおんどせんさやじゃいろせんさなどのせんさをなんこもとりつけています" | open_jtalk -x /var/lib/mecab/dic/open-jtalk/naist-jdic -m /home/pi/MMDAgent_Example-1.7/Voice/mei/mei_normal.htsvoice -ow speach2_5.wav -r 1.0
+  741  echo "ほかにもからだじゅうにおんどせんさやじゃいろせんさなどのせんさをなんこもとりつけています" | open_jtalk -x /var/lib/mecab/dic/open-jtalk/naist-jdic -m /home/pi/MMDAgent_Example-1.7/Voice/mei/mei_normal.htsvoice -ow speach2_6.wav -r 1.0
+  742  echo "ほこうだってかのうですよ" | open_jtalk -x /var/lib/mecab/dic/open-jtalk/naist-jdic -m /home/pi/MMDAgent_Example-1.7/Voice/mei/mei_normal.htsvoice -ow speach2_6.wav -r 1.0
+  743  echo "ほこうだってかのうですよ" | open_jtalk -x /var/lib/mecab/dic/open-jtalk/naist-jdic -m /home/pi/MMDAgent_Example-1.7/Voice/mei/mei_normal.htsvoice -ow speach2_5.wav -r 1.0
+  744  echo "ほかにもからだじゅうにおんどせんさやじゃいろせんさなどのせんさをなんこもとりつけています" | open_jtalk -x /var/lib/mecab/dic/open-jtalk/naist-jdic -m /home/pi/MMDAgent_Example-1.7/Voice/mei/mei_normal.htsvoice -ow speach2_6.wav -r 1.0
+  745  echo "ほこうだってかのうですよ   ほかにもからだじゅうにおんどせんさやじゃいろせんさなどのせんさをなんこもとりつけています" | open_jtalk -x /var/lib/mecab/dic/open-jtalk/naist-jdic -m /home/pi/MMDAgent_Example-1.7/Voice/mei/mei_normal.htsvoice -ow speach2_5.wav -r 1.0
+  746  echo "ほこうだってかのうですよ   ほかにもからだじゅうにおんどせんさやじゃいろせんさなどのせんさを　　なんこもとりつけています" | open_jtalk -x /var/lib/mecab/dic/open-jtalk/naist-jdic -m /home/pi/MMDAgent_Example-1.7/Voice/mei/mei_normal.htsvoice -ow speach2_5.wav -r 1.0
+  747  cd key_ws/DEMO/
+  748  sudo cc -o DEMO main.cpp -l wiringPi -l m
+  749  sudo cc -o DEMO main.cpp -l wiringPi -l m -l pthread
+  750  ./DEMO 
+  751  sudo cc -o DEMO main.cpp -l wiringPi -l m -l pthread
+  752  ./DEMO 
+  759  sudo cc -o DEMO main.cpp -l wiringPi -l m -l pthread
+  760  ./DEMO 
+  761  cd key_ws/circit_test/
+  762  ./IO_TEST 
+  763  sudo cc MPU_TEST mpu6050_test.cpp -l wiringPi
+  764  sudo cc MPU_TEST mpu6050_test.cpp
+  765  sudo cc -o MPU_TEST mpu6050_test.cpp -l wiringPi
+  766  cd ../
+  767  cd WiringPiDemo/
+  768  dir
+  769  cd ../circit_test/
+  770  dir
+  771  sudo cc -o MPU_TEST mpu6050_test.cpp -l wiringPi
+  772  ./VOICE_TEST 
+  773  sudo cc -o MPU_TEST mpu6050_test.cpp -l wiringPi
+  774  sudo cc -o MPU_TEST mpu6050_test.cpp -l wiringPi -l m
+  775  cd ../sixleg_test/
+  776  sudo cc -o MOTOR_TEST motor_test.cpp -l wiringPi -l m
+  777  ./MOTOR_TEST 
+  778  cd ../
+  779  cd
+  780  cd key_ws/circit_test/
+  781  ./MOTOR_TEST 
+  782  ./ADC_TEST 
+  783  shutdown 0
+  784  cd ../circit_test/
+  785  dir
+  786  sudo cc -o ADC_TEST adc_test.cpp -lwiringPi
+  787  ./ADC_TEST 
+  788  ./IO_TEST 
+  789  ./MOTOR_TEST 
+  790  sudo cc MPU_TEST mpu6050_test.cpp -lwiringPi
+  791  sudo cc -o MPU_TEST mpu6050_test.cpp -lwiringPi
+  792  sudo cc -o MPU_TEST mpu6050_test.cpp -lwiringPi -lm
+  793  ./MPU_TEST 
+  794  cd key_ws/circit_test/
+  795  dir
+  796  cc -o ADC_TEST adc_test.cpp -lwiringPi
+  797  ./ADC_TEST 
+  804  cc -o ADC_TEST adc_test.cpp -lwiringPi
+  805  ./ADC_TEST 
+  806  cd ../DEMO/
+  807  sudo cc -o DEMO main.cpp -l wiringPi -l m -l pthread
+  808  ./DEMO 
+  817  sudo cc -o DEMO main.cpp -l wiringPi -l m -l pthread
+  818  sudo shutdown 0
+  819  shutdown 0
+  820  sudo shutdown 0
+  821  cd key_ws/DEMO/
+  822  ./DEMO 
+  823  sudo shutdown 0
+  824  cd ../DEMO/hedder/speach_file/
+  825  echo "げんざいは　ぷろぐらむされたもーしょんのじっこうしかできませんが　しょうらいはふせいちでかつやくするようけんきゅうちゅうです" | open_jtalk -x /var/lib/mecab/dic/open-jtalk/naist-jdic -m /home/pi/MMDAgent_Example-1.7/Voice/mei/mei_normal.htsvoice -ow speach3_1.wav -r 1.0
+  826  echo "おうえんをよろしくおねがいします" | open_jtalk -x /var/lib/mecab/dic/open-jtalk/naist-jdic -m /home/pi/MMDAgent_Example-1.7/Voice/mei/mei_normal.htsvoice -ow speach3_2.wav -r 1.0
+  827  echo "それではみじかいあいだでしたがでもをしゅうりょうさせていただきます" | open_jtalk -x /var/lib/mecab/dic/open-jtalk/naist-jdic -m /home/pi/MMDAgent_Example-1.7/Voice/mei/mei_normal.htsvoice -ow speach4_1.wav -r 1.0
+  828  cd key_ws/DEMO/
+  829  ./DEMO 
+  830  sudo cc -o DEMO main.cpp -l wiringPi -l m -l pthread
+  831  ./DEMO 
+  838  sudo cc -o DEMO main.cpp -l wiringPi -l m -l pthread
+  839  ./DEMO 
+  840  sudo chmod 777 DEMO 
+  841  ./DEMO 
+  842  cd key_ws/DEMO/
+  843  ./DEMO 
+  844  cd key_ws/DEMO/
+  845  sudo cc -o DEMO main.cpp -l wiringPi -l m -l pthread
+  846  ./DEMO 
+  847  sudo cc -o DEMO main.cpp -l wiringPi -l m -l pthread
+  848  ./DEMO 
+  849  sudo cc -o DEMO main.cpp -l wiringPi -l m -l pthread
+  850  ./DEMO 
+  857  dir/home/pi/key_ws/DEMO/hedder/speach_file/
+  858  dir /home/pi/key_ws/DEMO/hedder/speach_file/
+  859  aplay /home/pi/key_ws/DEMO/hedder/speach_file/start.wav 
+  860  ./DEMO 
+  861  aplay --quiet /home/pi/key_ws/DEMO/hedder/speach_file/start.wav 
+  862  aplay --quiet /home/pi/key_ws/DEMO/hedder/speach_file/start.wav
+  863  ./DEMO 
+  864  aplay --quiet /home/pi/key_ws/DEMO/hedder/speach_file/start.wav
+  865  sudo cc -o DEMO main.cpp -l wiringPi -l m -l pthread
+  866  ./DEMO 
+  867  sudo cc -o DEMO main.cpp -l wiringPi -l m -l pthread
+  868  ./DEMO 
+  869  sudo chmod 777 ./DEMO 
+  870  ./DEMO 
+  871  sudo chmod 777 -R hedder/speach_file
+  872  ./DEMO 
+  873  sudo cc -o DEMO main.cpp -l wiringPi -l m -l pthread
+  874  ./DEMO 
+  875  aplay --quiet /home/pi/key_ws/DEMO/hedder/speach_file/start.wav
+  876  ./DEMO 
+  877  sudo ./DEMO 
+  878  aplay --quiet /home/pi/key_ws/DEMO/hedder/speach_file/start.wav
+  879  sudo ./DEMO 
+  880  sudo cc -o DEMO main.cpp -l wiringPi -l m -l pthread
+  881  sudo ./DEMO 
+  882  sudo cc -o DEMO main.cpp -l wiringPi -l m -l pthread
+  883  sudo ./DEMO 
+  952  sudo cc -o DEMO main.cpp -l wiringPi -l m -l pthread
+  953  ./DEMO 
+  954  sudo cc -o DEMO main.cpp -l wiringPi -l m -l pthread
+  955  sudo shutdown 0
+  956  cd key_ws/DEMO/
+  957  ./DEMO 
+  958  sudo cc -o DEMO main.cpp -l wiringPi -l m -l pthread
+  959  ./DEMO 
+  960  sudo cc -o DEMO main.cpp -l wiringPi -l m -l pthread
+  961  ./DEMO 
+ 1048  sudo cc -o DEMO main.cpp -l wiringPi -l m -pthread
+ 1049  ./DEMO 
+ 1050  gcc -o DEMO main.cpp -l wiringPi -l m -l pthread
+ 1051  .D
+ 1052  ./DEMO 
+ 1053  cc -o DEMO main.cpp -l wiringPi -l m -pthread
+ 1054  ./DEMO 
+ 1055  cc -o DEMO main.cpp -l wiringPi -l m -pthread
+ 1056  cc -o DEMO main.cpp -l wiringPi -l m -lpthread
+ 1057  cc -o DEMO main.cpp -l wiringPi -l m -pthread
+ 1058  cc -o DEMO main.cpp -l wiringPi -l m -lpthread
+ 1059  ./DEMO 
+ 1060  cc -o DEMO main.cpp -l wiringPi -l m -lpthread
+ 1061  ./DEMO 
+ 1094  cc -o DEMO main.cpp -l wiringPi -l m -lpthread
+ 1095  ./DEMO 
+ 1096  cc -o DEMO main.cpp -l wiringPi -l m -lpthread
+ 1097  ./DEMO 
+ 1098  cc -o DEMO main.cpp -l wiringPi -l m -lpthread -g
+ 1099  ./DEMO 
+ 1100  cc -o DEMO main.cpp -l wiringPi -l m -lpthread -g
+ 1101  ./DEMO 
+ 1142  cc -o DEMO main.cpp -l wiringPi -l m -lpthread -g
+ 1143  ./DEMO 
+ 1144  cd key_ws/DEMO/
+ 1145  sudo cc -o ADC_SAMPLE adc_sample.cpp -l wiringPi
+ 1146  ./ADC_SAMPLE 
+ 1147  sudo cc -o MPU6050_SMAPLE mpu6050_sample.cpp ~l wiringPy
+ 1148  sudo cc -o MPU6050_SMAPLE mpu6050_sample.cpp -l wiringPy
+ 1149  sudo cc -o MPU6050_SMAPLE mpu6050_sample.cpp -l wiringPi
+ 1150  sudo cc -o ADC_SAMPLE adc_sample.cpp -l wiringPi
+ 1151  sudo cc -o MPU6050_SMAPLE mpu6050_sample.cpp -l wiringPi
+ 1152  sudo cc -o MPU6050_SAMPLE mpu6050_sample.cpp -l wiringPi
+ 1153  sudo cc -o MPU6050_SAMPLE mpu6050_sample.cpp -l wiringPi -l m
+ 1154  ./MPU6050_SAMPLE 
+ 1155  sudo cc -o MPU6050_SAMPLE mpu6050_sample.cpp -l wiringPi -l m
+ 1156  ./MPU6050_SAMPLE 
+ 1157  sudo cc -o MPU6050_SAMPLE mpu6050_sample.cpp -l wiringPi -l m
+ 1158  ./MPU6050_SAMPLE 
+ 1159  sudo cc -o IO_SAMPLE io_sample.cpp -lwiringPy
+ 1160  sudo cc -o IO_SAMPLE io_sample.cpp -lwiringPi
+ 1161  ./IO_SAMPLE 
+ 1162  sudo cc -o IO_SAMPLE io_sample.cpp -lwiringPi
+ 1163  ./IO_SAMPLE 
+ 1164  sudo cc -o IO_SAMPLE io_sample.cpp -lwiringPi
+ 1165  ./IO_SAMPLE 
+ 1166  sudo cc -o VOICE_SAMPLE voice_sample.cpp -lwiringPi
+ 1167  sudo cc -o VOICE_SAMPLE voice_sample.cpp -lwiringPi -l pthread
+ 1168  ./VOICE_SAMPLE 
+ 1169  sudo cc -o VOICE_SAMPLE voice_sample.cpp -lwiringPi -l pthread
+ 1170  ./VOICE_SAMPLE 
+ 1171  sudo cc -o VOICE_SAMPLE voice_sample.cpp -lwiringPi -l pthread
+ 1172  ./VOICE_SAMPLE 
+ 1173  sudo cc -o VOICE_SAMPLE voice_sample.cpp -lwiringPi -l pthread
+ 1174  ./VOICE_SAMPLE 
+ 1175  ./ADC_SAMPLE 
+ 1176  ./VOICE_SAMPLE 
+ 1177  sudo cc -o ADC_SAMPLE adc_sample.cpp -l wiringPi
+ 1178  ./ADC_SAMPLE 
+ 1179  sudo cc -o MOTOR_SAMPLE motor_sample.cpp -l wiringPi
+ 1180  ./MOTOR_SAMPLE 
+ 1181  sudo cc -o RENS_SAMPLE renz_sample.cpp -lwirinngPi
+ 1182  sudo cc -o RENS_SAMPLE renz_sample.cpp -lwiringPi
+ 1183  ./RENS_SAMPLE 
+ 1184  sudo cc -o RENS_SAMPLE renz_sample.cpp -lwiringPi
+ 1185  ./RENS_SAMPLE 
+ 1202  sudo cc -o RENS_SAMPLE renz_sample.cpp -lwiringPi
+ 1203  ./RENS_SAMPLE 
+ 1204  file ./DEMO 
+ 1205  ./DEMO 
+ 1206  cd /etc/
+ 1207  dir
+ 1208  gedit rc.local 
+ 1209  sudo geidt rc.local 
+ 1210  sudo gedit rc.local 
+ 1211  nano rc.local 
+ 1212  sudo nano rc.local 
+ 1213  sudo shutdown 0
+ 1214  /home/pi/key_ws/DEMO/DEMO 
+ 1215  cd key_ws/DEMO/
+ 1216  sudo cc -o VOICE_SAMPLE voice_sample.cpp -lwiringPi
+ 1217  sudo cc -o VOICE_SAMPLE voice_sample.cpp -lwiringPi -lm
+ 1218  sudo cc -o VOICE_SAMPLE voice_sample.cpp -lwiringPi -lpthread
+ 1219  ./VOICE_SAMPLE 
+ 1220  sudo chmod 777  -R ./DEMO 
+ 1221  ld /dev/
+ 1222  ls /dev/
+ 1223  ./DEMO 
+ 1224  ./RENS_SAMPLE 
+ 1225  ./MPU6050_SAMPLE 
+ 1226  ./MOTOR_SAMPLE 
+ 1227  sudo shutdown 0
+ 1228  ls
+ 1229  cd key_ws/
+ 1230  ls
+ 1231  cd DEMO/
+ 1232  ls
+ 1233  cd hedder/
+ 1234  ll
+ 1235  ls -l
+ 1236  pwd
+ 1237  history
+ 1238  history|more
+ 1239  history > ../commandsample.txt
