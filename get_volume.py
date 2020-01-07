@@ -17,7 +17,7 @@ while stream.is_active():
         # bufferからndarrayに変換
         ndarray = np.frombuffer(input, dtype='int16')
 
-        ''' 高速フーリエ変換をして時間領域から周波数領域にする場合は下1行を追加する '''
+        # 高速フーリエ変換をして時間領域から周波数領域にする場合は下1行を追加する 
         #f = np.fft.fft(ndarray)
 
         # ndarrayからリストに変換
@@ -27,8 +27,8 @@ while stream.is_active():
         # 試しに0番目に入っているものを表示してみる
         print(a[0])
 
-        ''' 音声を出力する場合はstreamのoutputをTrueにして下2行を追加する '''
-	#output = np.array(a, dtype='int16').tobytes()
+        # 音声を出力する場合はstreamのoutputをTrueにして下2行を追加する
+    	#output = np.array(a, dtype='int16').tobytes()
         #stream.write(output)
     except KeyboardInterrupt:
         break
