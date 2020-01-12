@@ -17,7 +17,7 @@ while stream.is_active():
         # bufferからndarrayに変換
         x = np.frombuffer(input, dtype='int16') / 32768.0
 
-        # 配列で一番大きい値を出力
+        # 配列の最大値を出力
         print(x.max())
 
     except KeyboardInterrupt:
