@@ -12,11 +12,11 @@
 ~h
 # Command Line History (newest to oldest):
 :q
-|2,0,1578361833,,"q"
-:wq
-|2,0,1578361719,,"wq"
+|2,0,1578970505,,"q"
 :q!
-|2,0,1577157513,,"q!"
+|2,0,1578962331,,"q!"
+:wq
+|2,0,1578962327,,"wq"
 :111
 |2,0,1577157504,,"111"
 :w
@@ -31,38 +31,173 @@
 # Debug Line History (newest to oldest):
 
 # Registers:
+""-	CHAR	0
+	 
+|3,1,36,0,1,0,1578962315," "
 
 # File marks:
-'0  58  0  ~/show_wave.py
-|4,48,58,0,1578361833,"~/show_wave.py"
-'1  1  0  ~/speech.sh
-|4,49,1,0,1578361758,"~/speech.sh"
-'2  1  12  ~/speak.txt
-|4,50,1,12,1578361719,"~/speak.txt"
-'3  1  0  ~/README.txt
-|4,51,1,0,1578361680,"~/README.txt"
-'4  40  4  /home/yasu/flask-video-streaming/app.py
-|4,52,40,4,1577157513,"/home/yasu/flask-video-streaming/app.py"
-'5  1  0  ~/voicetester.cpp
-|4,53,1,0,1575344701,"~/voicetester.cpp"
-'6  1  0  /home/pi/speech/zzz.txt
-|4,54,1,0,1575344670,"/home/pi/speech/zzz.txt"
-'7  1  0  /home/pi/speech/zzz.
-|4,55,1,0,1575344659,"/home/pi/speech/zzz."
-'8  1  0  ~/speech.sh
-|4,56,1,0,1575344532,"~/speech.sh"
-'9  1  0  ~/voicetester.cpp
-|4,57,1,0,1575344457,"~/voicetester.cpp"
+'0  1  0  ~/servotester.cpp
+|4,48,1,0,1578970505,"~/servotester.cpp"
+'1  1  0  ~/servotester.cpp
+|4,49,1,0,1578970487,"~/servotester.cpp"
+'2  36  0  /home/pi/komori.py
+|4,50,36,0,1578962331,"/home/pi/komori.py"
+'3  58  0  ~/show_wave.py
+|4,51,58,0,1578361833,"~/show_wave.py"
+'4  1  0  ~/speech.sh
+|4,52,1,0,1578361758,"~/speech.sh"
+'5  1  12  ~/speak.txt
+|4,53,1,12,1578361719,"~/speak.txt"
+'6  1  0  ~/README.txt
+|4,54,1,0,1578361680,"~/README.txt"
+'7  40  4  /home/yasu/flask-video-streaming/app.py
+|4,55,40,4,1577157513,"/home/yasu/flask-video-streaming/app.py"
+'8  1  0  ~/voicetester.cpp
+|4,56,1,0,1575344701,"~/voicetester.cpp"
+'9  1  0  /home/pi/speech/zzz.txt
+|4,57,1,0,1575344670,"/home/pi/speech/zzz.txt"
 
 # Jumplist (newest first):
+-'  1  0  ~/servotester.cpp
+|4,39,1,0,1578970505,"~/servotester.cpp"
+-'  1  0  ~/servotester.cpp
+|4,39,1,0,1578970487,"~/servotester.cpp"
+-'  36  0  /home/pi/komori.py
+|4,39,36,0,1578962331,"/home/pi/komori.py"
+-'  36  0  /home/pi/komori.py
+|4,39,36,0,1578962331,"/home/pi/komori.py"
+-'  36  0  /home/pi/komori.py
+|4,39,36,0,1578962331,"/home/pi/komori.py"
+-'  36  0  /home/pi/komori.py
+|4,39,36,0,1578962331,"/home/pi/komori.py"
+-'  1  0  /home/pi/komori.py
+|4,39,1,0,1578962311,"/home/pi/komori.py"
+-'  1  0  /home/pi/komori.py
+|4,39,1,0,1578962311,"/home/pi/komori.py"
+-'  1  0  /home/pi/komori.py
+|4,39,1,0,1578962311,"/home/pi/komori.py"
+-'  1  0  /home/pi/komori.py
+|4,39,1,0,1578962311,"/home/pi/komori.py"
 -'  58  0  ~/show_wave.py
 |4,39,58,0,1578361833,"~/show_wave.py"
+-'  58  0  ~/show_wave.py
+|4,39,58,0,1578361833,"~/show_wave.py"
+-'  58  0  ~/show_wave.py
+|4,39,58,0,1578361833,"~/show_wave.py"
+-'  58  0  ~/show_wave.py
+|4,39,58,0,1578361833,"~/show_wave.py"
+-'  58  0  ~/show_wave.py
+|4,39,58,0,1578361833,"~/show_wave.py"
+-'  58  0  ~/show_wave.py
+|4,39,58,0,1578361833,"~/show_wave.py"
+-'  58  0  ~/show_wave.py
+|4,39,58,0,1578361833,"~/show_wave.py"
+-'  58  0  ~/show_wave.py
+|4,39,58,0,1578361833,"~/show_wave.py"
+-'  1  0  ~/show_wave.py
+|4,39,1,0,1578361821,"~/show_wave.py"
+-'  1  0  ~/show_wave.py
+|4,39,1,0,1578361821,"~/show_wave.py"
+-'  1  0  ~/show_wave.py
+|4,39,1,0,1578361821,"~/show_wave.py"
+-'  1  0  ~/show_wave.py
+|4,39,1,0,1578361821,"~/show_wave.py"
+-'  1  0  ~/show_wave.py
+|4,39,1,0,1578361821,"~/show_wave.py"
+-'  1  0  ~/show_wave.py
+|4,39,1,0,1578361821,"~/show_wave.py"
+-'  1  0  ~/show_wave.py
+|4,39,1,0,1578361821,"~/show_wave.py"
 -'  1  0  ~/show_wave.py
 |4,39,1,0,1578361821,"~/show_wave.py"
 -'  1  0  ~/speech.sh
 |4,39,1,0,1578361758,"~/speech.sh"
 -'  1  0  ~/speech.sh
 |4,39,1,0,1578361758,"~/speech.sh"
+-'  1  0  ~/speech.sh
+|4,39,1,0,1578361758,"~/speech.sh"
+-'  1  0  ~/speech.sh
+|4,39,1,0,1578361758,"~/speech.sh"
+-'  1  0  ~/speech.sh
+|4,39,1,0,1578361758,"~/speech.sh"
+-'  1  0  ~/speech.sh
+|4,39,1,0,1578361758,"~/speech.sh"
+-'  1  0  ~/speech.sh
+|4,39,1,0,1578361758,"~/speech.sh"
+-'  1  0  ~/speech.sh
+|4,39,1,0,1578361758,"~/speech.sh"
+-'  1  0  ~/speech.sh
+|4,39,1,0,1578361758,"~/speech.sh"
+-'  1  0  ~/speech.sh
+|4,39,1,0,1578361758,"~/speech.sh"
+-'  1  0  ~/speech.sh
+|4,39,1,0,1578361758,"~/speech.sh"
+-'  1  0  ~/speech.sh
+|4,39,1,0,1578361758,"~/speech.sh"
+-'  1  0  ~/speech.sh
+|4,39,1,0,1578361758,"~/speech.sh"
+-'  1  0  ~/speech.sh
+|4,39,1,0,1578361758,"~/speech.sh"
+-'  1  0  ~/speech.sh
+|4,39,1,0,1578361758,"~/speech.sh"
+-'  1  0  ~/speech.sh
+|4,39,1,0,1578361758,"~/speech.sh"
+-'  1  12  ~/speak.txt
+|4,39,1,12,1578361719,"~/speak.txt"
+-'  1  12  ~/speak.txt
+|4,39,1,12,1578361719,"~/speak.txt"
+-'  1  12  ~/speak.txt
+|4,39,1,12,1578361719,"~/speak.txt"
+-'  1  12  ~/speak.txt
+|4,39,1,12,1578361719,"~/speak.txt"
+-'  1  12  ~/speak.txt
+|4,39,1,12,1578361719,"~/speak.txt"
+-'  1  12  ~/speak.txt
+|4,39,1,12,1578361719,"~/speak.txt"
+-'  1  12  ~/speak.txt
+|4,39,1,12,1578361719,"~/speak.txt"
+-'  1  12  ~/speak.txt
+|4,39,1,12,1578361719,"~/speak.txt"
+-'  1  12  ~/speak.txt
+|4,39,1,12,1578361719,"~/speak.txt"
+-'  1  12  ~/speak.txt
+|4,39,1,12,1578361719,"~/speak.txt"
+-'  1  12  ~/speak.txt
+|4,39,1,12,1578361719,"~/speak.txt"
+-'  1  12  ~/speak.txt
+|4,39,1,12,1578361719,"~/speak.txt"
+-'  1  12  ~/speak.txt
+|4,39,1,12,1578361719,"~/speak.txt"
+-'  1  12  ~/speak.txt
+|4,39,1,12,1578361719,"~/speak.txt"
+-'  1  12  ~/speak.txt
+|4,39,1,12,1578361719,"~/speak.txt"
+-'  1  12  ~/speak.txt
+|4,39,1,12,1578361719,"~/speak.txt"
+-'  1  12  ~/speak.txt
+|4,39,1,12,1578361719,"~/speak.txt"
+-'  1  12  ~/speak.txt
+|4,39,1,12,1578361719,"~/speak.txt"
+-'  1  12  ~/speak.txt
+|4,39,1,12,1578361719,"~/speak.txt"
+-'  1  12  ~/speak.txt
+|4,39,1,12,1578361719,"~/speak.txt"
+-'  1  12  ~/speak.txt
+|4,39,1,12,1578361719,"~/speak.txt"
+-'  1  12  ~/speak.txt
+|4,39,1,12,1578361719,"~/speak.txt"
+-'  1  12  ~/speak.txt
+|4,39,1,12,1578361719,"~/speak.txt"
+-'  1  12  ~/speak.txt
+|4,39,1,12,1578361719,"~/speak.txt"
+-'  1  12  ~/speak.txt
+|4,39,1,12,1578361719,"~/speak.txt"
+-'  1  12  ~/speak.txt
+|4,39,1,12,1578361719,"~/speak.txt"
+-'  1  12  ~/speak.txt
+|4,39,1,12,1578361719,"~/speak.txt"
+-'  1  12  ~/speak.txt
+|4,39,1,12,1578361719,"~/speak.txt"
 -'  1  12  ~/speak.txt
 |4,39,1,12,1578361719,"~/speak.txt"
 -'  1  12  ~/speak.txt
@@ -87,176 +222,55 @@
 |4,39,1,0,1578361680,"~/README.txt"
 -'  1  0  ~/README.txt
 |4,39,1,0,1578361680,"~/README.txt"
--'  40  4  /home/yasu/flask-video-streaming/app.py
-|4,39,40,4,1577157513,"/home/yasu/flask-video-streaming/app.py"
--'  40  4  /home/yasu/flask-video-streaming/app.py
-|4,39,40,4,1577157513,"/home/yasu/flask-video-streaming/app.py"
--'  40  4  /home/yasu/flask-video-streaming/app.py
-|4,39,40,4,1577157513,"/home/yasu/flask-video-streaming/app.py"
--'  40  4  /home/yasu/flask-video-streaming/app.py
-|4,39,40,4,1577157513,"/home/yasu/flask-video-streaming/app.py"
--'  40  4  /home/yasu/flask-video-streaming/app.py
-|4,39,40,4,1577157513,"/home/yasu/flask-video-streaming/app.py"
--'  40  4  /home/yasu/flask-video-streaming/app.py
-|4,39,40,4,1577157513,"/home/yasu/flask-video-streaming/app.py"
--'  40  4  /home/yasu/flask-video-streaming/app.py
-|4,39,40,4,1577157513,"/home/yasu/flask-video-streaming/app.py"
--'  40  4  /home/yasu/flask-video-streaming/app.py
-|4,39,40,4,1577157513,"/home/yasu/flask-video-streaming/app.py"
--'  40  4  /home/yasu/flask-video-streaming/app.py
-|4,39,40,4,1577157513,"/home/yasu/flask-video-streaming/app.py"
--'  40  4  /home/yasu/flask-video-streaming/app.py
-|4,39,40,4,1577157513,"/home/yasu/flask-video-streaming/app.py"
--'  40  4  /home/yasu/flask-video-streaming/app.py
-|4,39,40,4,1577157513,"/home/yasu/flask-video-streaming/app.py"
--'  40  4  /home/yasu/flask-video-streaming/app.py
-|4,39,40,4,1577157513,"/home/yasu/flask-video-streaming/app.py"
--'  40  4  /home/yasu/flask-video-streaming/app.py
-|4,39,40,4,1577157513,"/home/yasu/flask-video-streaming/app.py"
--'  40  4  /home/yasu/flask-video-streaming/app.py
-|4,39,40,4,1577157513,"/home/yasu/flask-video-streaming/app.py"
--'  40  4  /home/yasu/flask-video-streaming/app.py
-|4,39,40,4,1577157513,"/home/yasu/flask-video-streaming/app.py"
--'  40  4  /home/yasu/flask-video-streaming/app.py
-|4,39,40,4,1577157513,"/home/yasu/flask-video-streaming/app.py"
--'  1  0  /home/yasu/flask-video-streaming/app.py
-|4,39,1,0,1577157497,"/home/yasu/flask-video-streaming/app.py"
--'  1  0  /home/yasu/flask-video-streaming/app.py
-|4,39,1,0,1577157497,"/home/yasu/flask-video-streaming/app.py"
--'  1  0  /home/yasu/flask-video-streaming/app.py
-|4,39,1,0,1577157497,"/home/yasu/flask-video-streaming/app.py"
--'  1  0  /home/yasu/flask-video-streaming/app.py
-|4,39,1,0,1577157497,"/home/yasu/flask-video-streaming/app.py"
--'  1  0  /home/yasu/flask-video-streaming/app.py
-|4,39,1,0,1577157497,"/home/yasu/flask-video-streaming/app.py"
--'  1  0  /home/yasu/flask-video-streaming/app.py
-|4,39,1,0,1577157497,"/home/yasu/flask-video-streaming/app.py"
--'  1  0  /home/yasu/flask-video-streaming/app.py
-|4,39,1,0,1577157497,"/home/yasu/flask-video-streaming/app.py"
--'  1  0  /home/yasu/flask-video-streaming/app.py
-|4,39,1,0,1577157497,"/home/yasu/flask-video-streaming/app.py"
--'  1  0  /home/yasu/flask-video-streaming/app.py
-|4,39,1,0,1577157497,"/home/yasu/flask-video-streaming/app.py"
--'  1  0  /home/yasu/flask-video-streaming/app.py
-|4,39,1,0,1577157497,"/home/yasu/flask-video-streaming/app.py"
--'  1  0  /home/yasu/flask-video-streaming/app.py
-|4,39,1,0,1577157497,"/home/yasu/flask-video-streaming/app.py"
--'  1  0  /home/yasu/flask-video-streaming/app.py
-|4,39,1,0,1577157497,"/home/yasu/flask-video-streaming/app.py"
--'  1  0  /home/yasu/flask-video-streaming/app.py
-|4,39,1,0,1577157497,"/home/yasu/flask-video-streaming/app.py"
--'  1  0  /home/yasu/flask-video-streaming/app.py
-|4,39,1,0,1577157497,"/home/yasu/flask-video-streaming/app.py"
--'  1  0  /home/yasu/flask-video-streaming/app.py
-|4,39,1,0,1577157497,"/home/yasu/flask-video-streaming/app.py"
--'  1  0  /home/yasu/flask-video-streaming/app.py
-|4,39,1,0,1577157497,"/home/yasu/flask-video-streaming/app.py"
--'  1  0  ~/voicetester.cpp
-|4,39,1,0,1575344701,"~/voicetester.cpp"
--'  1  0  ~/voicetester.cpp
-|4,39,1,0,1575344701,"~/voicetester.cpp"
--'  1  0  ~/voicetester.cpp
-|4,39,1,0,1575344701,"~/voicetester.cpp"
--'  1  0  ~/voicetester.cpp
-|4,39,1,0,1575344701,"~/voicetester.cpp"
--'  1  0  ~/voicetester.cpp
-|4,39,1,0,1575344701,"~/voicetester.cpp"
--'  1  0  ~/voicetester.cpp
-|4,39,1,0,1575344701,"~/voicetester.cpp"
--'  1  0  ~/voicetester.cpp
-|4,39,1,0,1575344701,"~/voicetester.cpp"
--'  1  0  ~/voicetester.cpp
-|4,39,1,0,1575344701,"~/voicetester.cpp"
--'  1  0  ~/voicetester.cpp
-|4,39,1,0,1575344701,"~/voicetester.cpp"
--'  1  0  ~/voicetester.cpp
-|4,39,1,0,1575344701,"~/voicetester.cpp"
--'  1  0  ~/voicetester.cpp
-|4,39,1,0,1575344701,"~/voicetester.cpp"
--'  1  0  ~/voicetester.cpp
-|4,39,1,0,1575344701,"~/voicetester.cpp"
--'  1  0  ~/voicetester.cpp
-|4,39,1,0,1575344701,"~/voicetester.cpp"
--'  1  0  ~/voicetester.cpp
-|4,39,1,0,1575344701,"~/voicetester.cpp"
--'  1  0  ~/voicetester.cpp
-|4,39,1,0,1575344701,"~/voicetester.cpp"
--'  1  0  ~/voicetester.cpp
-|4,39,1,0,1575344701,"~/voicetester.cpp"
--'  1  0  ~/voicetester.cpp
-|4,39,1,0,1575344701,"~/voicetester.cpp"
--'  1  0  ~/voicetester.cpp
-|4,39,1,0,1575344701,"~/voicetester.cpp"
--'  1  0  ~/voicetester.cpp
-|4,39,1,0,1575344701,"~/voicetester.cpp"
--'  1  0  ~/voicetester.cpp
-|4,39,1,0,1575344701,"~/voicetester.cpp"
--'  1  0  ~/voicetester.cpp
-|4,39,1,0,1575344701,"~/voicetester.cpp"
--'  1  0  ~/voicetester.cpp
-|4,39,1,0,1575344701,"~/voicetester.cpp"
--'  1  0  ~/voicetester.cpp
-|4,39,1,0,1575344701,"~/voicetester.cpp"
--'  1  0  ~/voicetester.cpp
-|4,39,1,0,1575344701,"~/voicetester.cpp"
--'  1  0  ~/voicetester.cpp
-|4,39,1,0,1575344701,"~/voicetester.cpp"
--'  1  0  ~/voicetester.cpp
-|4,39,1,0,1575344701,"~/voicetester.cpp"
--'  1  0  ~/voicetester.cpp
-|4,39,1,0,1575344701,"~/voicetester.cpp"
--'  1  0  ~/voicetester.cpp
-|4,39,1,0,1575344701,"~/voicetester.cpp"
--'  1  0  ~/voicetester.cpp
-|4,39,1,0,1575344701,"~/voicetester.cpp"
--'  1  0  ~/voicetester.cpp
-|4,39,1,0,1575344701,"~/voicetester.cpp"
--'  1  0  ~/voicetester.cpp
-|4,39,1,0,1575344701,"~/voicetester.cpp"
--'  1  0  ~/voicetester.cpp
-|4,39,1,0,1575344701,"~/voicetester.cpp"
--'  1  0  /home/pi/speech/zzz.txt
-|4,39,1,0,1575344670,"/home/pi/speech/zzz.txt"
--'  1  0  /home/pi/speech/zzz.txt
-|4,39,1,0,1575344670,"/home/pi/speech/zzz.txt"
--'  1  0  /home/pi/speech/zzz.txt
-|4,39,1,0,1575344670,"/home/pi/speech/zzz.txt"
--'  1  0  /home/pi/speech/zzz.txt
-|4,39,1,0,1575344670,"/home/pi/speech/zzz.txt"
--'  1  0  /home/pi/speech/zzz.txt
-|4,39,1,0,1575344670,"/home/pi/speech/zzz.txt"
--'  1  0  /home/pi/speech/zzz.txt
-|4,39,1,0,1575344670,"/home/pi/speech/zzz.txt"
--'  1  0  /home/pi/speech/zzz.txt
-|4,39,1,0,1575344670,"/home/pi/speech/zzz.txt"
--'  1  0  /home/pi/speech/zzz.txt
-|4,39,1,0,1575344670,"/home/pi/speech/zzz.txt"
--'  1  0  /home/pi/speech/zzz.txt
-|4,39,1,0,1575344670,"/home/pi/speech/zzz.txt"
--'  1  0  /home/pi/speech/zzz.txt
-|4,39,1,0,1575344670,"/home/pi/speech/zzz.txt"
--'  1  0  /home/pi/speech/zzz.txt
-|4,39,1,0,1575344670,"/home/pi/speech/zzz.txt"
--'  1  0  /home/pi/speech/zzz.txt
-|4,39,1,0,1575344670,"/home/pi/speech/zzz.txt"
--'  1  0  /home/pi/speech/zzz.txt
-|4,39,1,0,1575344670,"/home/pi/speech/zzz.txt"
--'  1  0  /home/pi/speech/zzz.txt
-|4,39,1,0,1575344670,"/home/pi/speech/zzz.txt"
--'  1  0  /home/pi/speech/zzz.txt
-|4,39,1,0,1575344670,"/home/pi/speech/zzz.txt"
--'  1  0  /home/pi/speech/zzz.txt
-|4,39,1,0,1575344670,"/home/pi/speech/zzz.txt"
--'  1  0  /home/pi/speech/zzz.txt
-|4,39,1,0,1575344670,"/home/pi/speech/zzz.txt"
--'  1  0  /home/pi/speech/zzz.txt
-|4,39,1,0,1575344670,"/home/pi/speech/zzz.txt"
--'  1  0  /home/pi/speech/zzz.txt
-|4,39,1,0,1575344670,"/home/pi/speech/zzz.txt"
--'  1  0  /home/pi/speech/zzz.txt
-|4,39,1,0,1575344670,"/home/pi/speech/zzz.txt"
+-'  1  0  ~/README.txt
+|4,39,1,0,1578361680,"~/README.txt"
+-'  1  0  ~/README.txt
+|4,39,1,0,1578361680,"~/README.txt"
+-'  1  0  ~/README.txt
+|4,39,1,0,1578361680,"~/README.txt"
+-'  1  0  ~/README.txt
+|4,39,1,0,1578361680,"~/README.txt"
+-'  1  0  ~/README.txt
+|4,39,1,0,1578361680,"~/README.txt"
+-'  1  0  ~/README.txt
+|4,39,1,0,1578361680,"~/README.txt"
+-'  1  0  ~/README.txt
+|4,39,1,0,1578361680,"~/README.txt"
+-'  1  0  ~/README.txt
+|4,39,1,0,1578361680,"~/README.txt"
+-'  1  0  ~/README.txt
+|4,39,1,0,1578361680,"~/README.txt"
+-'  1  0  ~/README.txt
+|4,39,1,0,1578361680,"~/README.txt"
+-'  1  0  ~/README.txt
+|4,39,1,0,1578361680,"~/README.txt"
+-'  1  0  ~/README.txt
+|4,39,1,0,1578361680,"~/README.txt"
+-'  1  0  ~/README.txt
+|4,39,1,0,1578361680,"~/README.txt"
+-'  1  0  ~/README.txt
+|4,39,1,0,1578361680,"~/README.txt"
+-'  1  0  ~/README.txt
+|4,39,1,0,1578361680,"~/README.txt"
+-'  1  0  ~/README.txt
+|4,39,1,0,1578361680,"~/README.txt"
+-'  1  0  ~/README.txt
+|4,39,1,0,1578361680,"~/README.txt"
+-'  1  0  ~/README.txt
+|4,39,1,0,1578361680,"~/README.txt"
 
 # History of marks within files (newest to oldest):
+
+> ~/servotester.cpp
+	*	1578970502	0
+	"	1	0
+
+> /home/pi/komori.py
+	*	1578962328	0
+	"	36	0
+	^	36	1
+	.	1	1
+	+	1	1
 
 > ~/show_wave.py
 	*	1578361831	0

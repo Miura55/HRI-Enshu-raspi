@@ -262,3 +262,7 @@ rm speak.txt
 aplay speak.wav 
 amixer -c0 sset PCM 70%
 clear
+cd /home/pi/
+ls
+vim komori.py 
+clear

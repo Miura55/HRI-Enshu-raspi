@@ -1,0 +1,52 @@
+Looking for git in: git
+Using git 2.17.1 from git
+> git rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+> git rev-parse --show-toplevel
+> git rev-parse --show-toplevel
+> git rev-parse --show-toplevel
+> git rev-parse --show-toplevel
+> git rev-parse --show-toplevel
+> git rev-parse --show-toplevel
+> git rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+> git rev-parse --show-toplevel
+> git rev-parse --show-toplevel
+> git rev-parse --show-toplevel
+> git rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+> git rev-parse --show-toplevel
+> git rev-parse --git-dir
+Open repository: /home/pi/flask-video-streaming
+> git fetch
+> git status -z -u
+> git symbolic-ref --short HEAD
+error: cannot open .git/FETCH_HEAD: Permission denied
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/home/pi/flask-video-streaming/.git/refs/remotes/origin/master', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/home/pi/flask-video-streaming/.git/refs/remotes/origin/master'
+	at FSWatcher.start (internal/fs/watchers.js:165:26)
+	at Object.watch (fs.js:1270:11)
+	at Object.t.watch (/home/koki/.vscode-server/bin/26076a4de974ead31f97692a0d32f90d735645c0/extensions/git/dist/main.js:1:591308)
+	at E.updateTransientWatchers (/home/koki/.vscode-server/bin/26076a4de974ead31f97692a0d32f90d735645c0/extensions/git/dist/main.js:1:123004)
+	at l.fire (/home/koki/.vscode-server/bin/26076a4de974ead31f97692a0d32f90d735645c0/out/vs/server/remoteExtensionHostProcess.js:46:913)
+	at T.updateModelState (/home/koki/.vscode-server/bin/26076a4de974ead31f97692a0d32f90d735645c0/extensions/git/dist/main.js:1:141789)
+> git config --get commit.template
+> git rev-parse --show-toplevel
+> git rev-parse --show-toplevel
+> git rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+> git rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+> git rev-parse --show-toplevel
+> git rev-parse --show-toplevel
+> git rev-parse --show-toplevel
+> git check-ignore -v -z --stdin
+> git rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+> git fetch
+error: cannot open .git/FETCH_HEAD: Permission denied
