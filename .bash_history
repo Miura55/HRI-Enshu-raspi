@@ -266,3 +266,21 @@ cd /home/pi/
 ls
 vim komori.py 
 clear
+ls
+git pull
+git checkout --theirs get_volume.py
+git pull
+git fetch
+git pull origin master
+git pull
+cp /home/pi/raspidemo/servotester.cpp ./
+ls
+vim servotester.cpp 
+g++ -o servotester servotester.cpp io_input.cpp rs405cb.cpp -lwiringPi -lpthread -lm
+sudo ./servotester 
+git add .
+git rm --cached Webapp/
+git add .
+git commit -am "Added servo test"
+git push origin
+clear
